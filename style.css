@@ -1,0 +1,115 @@
+:root {
+    --hor-pad: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-sections {
+    height: 500px;
+    /* border: 1px solid black; */
+}
+
+.hor-container {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro-section {
+    background-color: #1F2937;
+}
+
+.header {
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+
+    padding-left: var(--hor-pad);
+    padding-right: var(--hor-pad);
+    margin-bottom: 50px;
+}
+
+.header .logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-links {
+    flex: 0 1 500px;
+    display: flex;
+    color: white;
+
+}
+
+.header-links a {
+    flex: 1;
+    text-align: right;
+}
+
+.welcome {
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 40px;
+    padding-left: var(--hor-pad);
+    padding-right: var(--hor-pad);
+
+}
+
+.welcome-image,
+.welcome-message {
+    flex: 1;
+    color: white;
+}
+
+#welcome-header {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#welcome-paragraph {
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.blue-button {
+    transition-duration: 0.4s;
+
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.blue-button:hover {
+    background-color: #2d62b8;
+}
+
+.welcome-image {
+    flex: 0 1 400px;
+    height: auto;
+    justify-content: right;
+    padding-bottom: 50px;
+}
+
+
+
+
+
