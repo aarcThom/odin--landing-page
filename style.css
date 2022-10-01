@@ -17,13 +17,14 @@ a {
 }
 
 .main-sections {
-    height: 500px;
+    min-height: 500px;
     /* border: 1px solid black; */
 }
 
 .hor-container {
     height: 100%;
     max-width: 1200px;
+    min-width: 500px;
     margin: auto;
 }
 
@@ -73,7 +74,7 @@ a {
 
 .welcome-image,
 .welcome-message {
-    flex: 1;
+    flex: 1 0 400px;
     color: white;
 }
 
@@ -103,10 +104,28 @@ a {
 }
 
 .welcome-image {
-    flex: 0 1 400px;
+    flex:0 1 450px;
     height: auto;
     justify-content: right;
     padding-bottom: 50px;
+}
+
+.intro-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.picture-boxes {
+    display: flex;
+    margin: var(--hor-pad);
+}
+
+.pic-box {
+    flex: 1;
+    border: 1px solid salmon;
 }
 
 
