@@ -121,11 +121,33 @@ a {
 .picture-boxes {
     display: flex;
     margin: var(--hor-pad);
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
 .pic-box {
-    flex: 1;
-    border: 1px solid salmon;
+    flex: 0 0 200px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.pic-capt {
+    text-align: center;
+}
+
+.pug-pics {
+    border: 6px solid #2d62b8;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.quote-section {
+    margin-top: 100px;
+    background-color: goldenrod;
 }
 
 
