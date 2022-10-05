@@ -183,6 +183,12 @@ a {
 .footer {
     background-color: #1F2937;
     flex: 0 0 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #e5e7eb;
 }
 
 .signup-block {
@@ -208,11 +214,10 @@ a {
 
 .signup-button-box {
     flex: 1;
-    border: 3px solid green;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .outline-button {
@@ -223,10 +228,22 @@ a {
     border: 2px solid white;
     padding: 5px 20px;
     border-radius: 8px;
-    min-width: 50%;
+    width: 300px;
 }
 
 .outline-button:hover {
     background-color: #2d62b8;
     cursor:pointer;
 }
+
+.signup-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.signup-line {
+    color: white;
+}
+
